@@ -23,20 +23,20 @@ main {
 /* Navbar styling */
 
 .navbar {
-  background-color: #d2cdc3;
+  background-color: #311611;
 }
 
 .navbar-brand {
     font-family: "Allura", cursive;
     font-size: 50px;
-    color: #3b1e20;
+    color: #d9b29c;
 }
 
 .navbar-brand:hover {
     color: #f4f1ec;
 }
 .navbar-nav .nav-link {
-    color: #3b1e20;
+    color: #d9b29c;
     font-family: "Lato", sans-serif;
     font-weight: 500;
     font-size: 18px;
@@ -54,7 +54,7 @@ main {
 /* Footer styling */
 footer {
   width: 100%;
-    background-color: #54463A;
+    background-color: #4b1f2a;
 }
 footer a, footer p {
   text-decoration: none !important;
