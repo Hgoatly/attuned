@@ -1,0 +1,64 @@
+/* Layout: make footer stick to bottom using flexbox */
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f4f1ec;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+/* Navbar styling */
+
+.navbar {
+  background-color: #4b1f2a; 
+}
+
+.navbar-brand {
+    font-family: "Allura", cursive;
+    font-size: 50px;
+    color: #d9b29c;
+}
+
+.navbar-brand:hover {
+    color: #f4f1ec;
+}
+.navbar-nav .nav-link {
+    color: #d9b29c;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.navbar-toggler {
+    border-color: #d9b29c;
+    color: #d9b29c;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23b07a5a' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Footer styling */
+footer {
+  width: 100%;
+    background-color: #4b1f2a;
+}
+footer a, footer p {
+  text-decoration: none !important;
+  color: #d9b29c;   
+}
+
+.copyright {
+    color: #d9b29c;
+}
+
+footer hr {
+    border-top: 1px solid #d9b29c;
+    }
