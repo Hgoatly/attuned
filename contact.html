@@ -23,7 +23,7 @@
 <body>
     <header>
         <nav class="py-1 px-4 navbar navbar-expand-lg">
-  <a class="navbar-brand" href="#">Attuned</a>
+  <a class="navbar-brand" href="#">ATTUNED</a>
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -43,7 +43,56 @@
 </nav>
     </header>
     <main>
-        <section></section>
+        <section>
+          <div class="container">
+  <div class="row mx-0 justify-content-center">
+    <div class="">
+      <form
+        method="POST"
+        class="w-100 rounded-1 p-4"
+        action="https://herotofu.com/start"
+      >
+        <label class="d-block mb-4">
+          <label class="d-block mb-4">
+            <span class="form-label d-block">Email address</span>
+            <input
+              name="email"
+              type="email"
+              class="form-control"
+              required
+            />
+          </label>
+
+          <span class="form-label d-block">Phone number</span>
+          <input
+            name="phone"
+            type="text"
+            class="form-control"
+            required
+          />
+        </label>
+
+        <label class="d-block mb-4">
+          <span class="form-label d-block">Message</span>
+          <textarea
+            name="message"
+            class="form-control"
+            rows="3"
+          ></textarea>
+        </label>
+
+        <div class="mb-3">
+          <button type="submit" class="btn px-3 rounded-3 submit-button">
+            Contact us
+          </button>
+        </div>
+
+      </form>
+    </div>
+  </div>
+</div>
+
+        </section>
         <section></section>
     </main>
     <footer class="text-center" >
