@@ -35,7 +35,7 @@ main {
 .navbar-brand {
     font-family: "Playfair Display", serif;
     font-size: 50px;
-    color: #d2cdc3;
+    color: #b59a5a;
     letter-spacing: -8px;
 }
 
@@ -43,19 +43,19 @@ main {
     color: #f4f1ec;
 }
 .navbar-nav .nav-link {
-    color: #d2cdc3;
+    color: #b59a5a;
     font-family: "Lato", serif;
     font-weight: 500;
     font-size: 18px;
 }
 
 .navbar-toggler {
-    border-color: #d2cdc3;
-    color: #d2cdc3;
+    border-color: #b59a5a;
+    color: #b59a5a;
 }
 
 .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23d2cdc3' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23b59a5a' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 @media screen and (max-width: 768px) {
@@ -74,7 +74,8 @@ footer {
 footer a, footer p {
   text-decoration: none !important;
 /* color: #d9b29c;  */
-color: #d2cdc3;
+color: #b59a5a
+;
 }
 
 footer a {
@@ -86,12 +87,12 @@ footer p {
 }
 
 .copyright {
-    color: #d2cdc3;
+    color: #b59a5a;
     font-family: "Lato", sans-serif;
 }
 
 footer hr {
-    border-top: 1px solid #d2cdc3;
+    border-top: 1px solid #b59a5a;
     }
 
 /* Hero image styling */
@@ -114,7 +115,7 @@ footer hr {
 
 .submit-button {
     background-color: #311611;
-    color: #d2cdc3;
+    color: #b59a5a;
     font-family: "Lato", serif;
 }
 
