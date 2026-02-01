@@ -9,6 +9,7 @@ body {
   min-height: 100vh;
 /*  background-color: #f4f1ec; */
   background-color: #d2cdc3;
+  color: #311611;
 }
 
 header {
@@ -107,10 +108,7 @@ footer hr {
 }
 
 /* text */
-.attuned-text {
-    color: #311611;
-    font-family: "lato";
-}
+
 
 /* contact page styles */
 
