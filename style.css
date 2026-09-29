@@ -165,6 +165,11 @@ main {
     letter-spacing: -6px;
   }
 
+  .home-page main .hero-text h2,
+  .home-page main .homepage-text h2.body-headings {
+    font-size: 1.75rem;
+  }
+
   .hero-text, .hero-button-container {
     left: 50%;
     transform: translate(-50%, -50%);
@@ -232,7 +237,7 @@ footer a,
 footer p {
   text-decoration: none !important;
   color: #d2cdc3;
-  font-family: "Lato", serif;
+  font-family: "DM Sans", sans-serif;
 }
 
 .site-footer {
@@ -489,6 +494,10 @@ footer p {
   display: block;
 }
 
+.hero-image picture {
+  display: block;
+}
+
 .hero-motto {
   display: flex;
   align-items: center;
@@ -518,7 +527,7 @@ footer p {
 }
 
 .form-label {
-  font-family: "Lato", serif;
+  font-family: "DM Sans", sans-serif;
   color: #311611;
 }
 
