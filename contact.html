@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Attuned Wellness</title>
+    <title>Contact Attuned Wellness | Enquire About Experiences</title>
+    <meta name="description" content="Contact Attuned Wellness with a question, to ask about an upcoming experience, or to bring Attuned to your space.">
+    <meta name="robots" content="index, follow">
     <!-- Bootstrap CSS -->
 <link
   href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -11,6 +13,7 @@
 >
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Allura&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
@@ -20,7 +23,7 @@
 </script>
 </head>
 
-<body>
+<body class="contact-page">
     <header>
         <nav class="py-1 px-4 navbar navbar-expand-lg">
   <a class="navbar-brand" href="index.html">ATTUNED</a>
@@ -43,146 +46,88 @@
 </nav>
     </header>
     <main>
-        <section>
-          <div class="container">
-  <div class="row mx-0 justify-content-center">
-    <div class="">
-      <form
-        method="POST"
-        class="w-100 rounded-1 p-4"
-        action="https://herotofu.com/start"
-      >
-        <label class="d-block mb-4">
-          <label class="d-block mb-4">
-            <span class="form-label d-block">Email address</span>
-            <input
-              name="email"
-              type="email"
-              class="form-control"
-              required
-            />
-          </label>
+        <section class="contact-layout" aria-label="Contact Attuned">
+          <div class="contact-form-panel">
+            <div class="contact-intro">
+              <h1 class="contact-header">CONTACT</h1>
+              <h2>Let's talk.</h2>
+              <p>Whether you're interested in an upcoming experience, would like to bring Attuned to your space, or simply have a question, we'd love to hear from you.</p>
+            <h3>GET IN TOUCH</h3>
+            </div>
+            <form id="contact-form" method="POST" class="contact-form" action="https://herotofu.com/start">
+              <div class="contact-name-fields mb-4">
+                <div>
+                  <label class="visually-hidden" for="contact-first-name">First name</label>
+                  <input id="contact-first-name" name="firstName" type="text" class="form-control" placeholder="First name" autocomplete="given-name" required>
+                </div>
+                <div>
+                  <label class="visually-hidden" for="contact-last-name">Last name</label>
+                  <input id="contact-last-name" name="lastName" type="text" class="form-control" placeholder="Last name" autocomplete="family-name" required>
+                </div>
+              </div>
 
-          <span class="form-label d-block">Phone number</span>
-          <input
-            name="phone"
-            type="text"
-            class="form-control"
-            required
-          />
-        </label>
+              <div class="mb-4">
+                <label class="visually-hidden" for="contact-email">Email address</label>
+                <input id="contact-email" name="email" type="email" class="form-control" placeholder="Email address" autocomplete="email" required>
+              </div>
 
-        <label class="d-block mb-4">
-          <span class="form-label d-block">Message</span>
-          <textarea
-            name="message"
-            class="form-control"
-            rows="3"
-          ></textarea>
-        </label>
-
-        <div class="mb-3">
-          <button type="submit" class="btn px-3 rounded-3 submit-button">
-            Contact us
-          </button>
-        </div>
-
-      </form>
-    </div>
-  </div>
-</div>
-
+              <div class="mb-4">
+                <label for="contact-message">Message</label>
+                <textarea id="contact-message" name="message" class="form-control" rows="5"></textarea>
+              </div>
+              <button type="submit" class="btn px-3 submit-button">SEND MESSAGE<span aria-hidden="true">→</span></button>
+            </form>
+          </div>
+          <div class="contact-image-panel">
+            <img src="assets/contact-image-desktop.webp" alt="Candlelit stone archway">
+            <div class="contact-image-copy">
+              <div class="hero-text">
+                <h1>ATTUNED</h1>
+                <h3 class="hero-motto" aria-label="Live music, sound and stillness">
+                  <span>LIVE MUSIC</span>
+                  <span class="floating-dot" aria-hidden="true"></span>
+                  <span>SOUND</span>
+                  <span class="floating-dot" aria-hidden="true"></span>
+                  <span>STILLNESS</span>
+                </h3>
+                <hr>
+                <h4 class="contact-wording">London</h4>
+                <h4 class="contact-wording">hello@weareattuned.co.uk</h4>
+                <h4 class="contact-wording">We usually reply within 2 working days</h4>
+                </div>
+                
+          </div>
         </section>
-        <section></section>
     </main>
-    <footer class="text-center" >
-    <!-- Grid container -->
-    <div class="container">
-      <!-- Section: Links -->
-      <section class="mt-5">
-        <!-- Grid row-->
-        <div class="row text-center d-flex justify-content-center pt-5">
-          <!-- Grid column -->
-          <div class="col-md-2">
-            <h6 class="text-uppercase font-weight-bold">
-              <a href="index.html" class="">Home</a>
-            </h6>
-          </div>
-          <!-- Grid column -->
-
-          <!-- Grid column -->
-          <div class="col-md-2">
-            <h6 class="text-uppercase font-weight-bold">
-              <a href="about.html">About us</a>
-            </h6>
-          </div>
-          <!-- Grid column -->
-
-          <!-- Grid column -->
-          <div class="col-md-2">
-            <h6 class="text-uppercase font-weight-bold">
-              <a href="contact.html">Contact</a>
-            </h6>
-          </div>
-          <!-- Grid column -->
+    <footer class="site-footer">
+    <div class="container site-footer-inner">
+      <section class="site-footer-main">
+        <div class="site-footer-brand">
+          <a class="site-footer-wordmark" href="index.html">ATTUNED</a>
+          <p class="site-footer-tagline">LIVE MUSIC <span aria-hidden="true">·</span> SOUND <span aria-hidden="true">·</span> STILLNESS</p>
+          <p class="site-footer-description">Experiences that move you.</p>
         </div>
-        <!-- Grid row-->
-      </section>
-      <!-- Section: Links -->
-
-      <hr class="my-5" />
-
-      <!-- Section: Text -->
-      <section class="mb-5">
-        <div class="row d-flex justify-content-center">
-          <div class="col-lg-8">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-              distinctio earum repellat quaerat voluptatibus placeat nam,
-              commodi optio pariatur est quia magnam eum harum corrupti
-              dicta, aliquam sequi voluptate quas.
-            </p>
+        <nav class="site-footer-navigation" aria-label="Footer">
+          <div class="site-footer-column">
+            <h2>EXPLORE</h2>
+            <a href="index.html#what-we-do">Sound</a>
+            <a href="index.html#what-we-do">Candlelight</a>
+            <a href="about.html">About Attuned</a>
+            <a href="contact.html">Contact</a>
           </div>
-        </div>
+          <div class="site-footer-column">
+            <h2>GET IN TOUCH</h2>
+            <a href="contact.html">Contact</a>
+            <a href="contact.html#contact-form">Email us</a>
+          </div>
+        </nav>
       </section>
-      <!-- Section: Text -->
-
-      <!-- Section: Social -->
-      <section class="text-center mb-5">
-        <a href="" class="me-4" style="text-decoration: none !important;">
-          <i class="fa-brands fa-facebook-f"></i>
-        </a>
-        <a href="" class="me-4" style="text-decoration: none !important;">
-          <i class="fa-brands fa-twitter"></i>
-        </a>
-        <a href="" class="me-4" style="text-decoration: none !important;">
-          <i class="fa-brands fa-google"></i>
-        </a>
-        <a href="" class="me-4" style="text-decoration: none !important;">
-          <i class="fa-brands fa-instagram"></i>
-        </a>
-        <a href="" class="me-4" style="text-decoration: none !important;">
-          <i class="fa-brands fa-linkedin"></i>
-        </a>
-        <a href="" class="me-4" style="text-decoration: none !important; ">
-          <i class="fa-brands fa-github"></i>
-        </a>
-      </section>
-      <!-- Section: Social -->
+      <div class="site-footer-bottom">
+        <p>© <span id="copyright-date"></span> Attuned</p>
+        <p>Candlelight <span aria-hidden="true">·</span> Stillness <span aria-hidden="true">·</span> Sound</p>
+      </div>
     </div>
-    <!-- Grid container -->
-
-    <!-- Copyright -->
-    <div
-         class="text-center p-3 copyright"
-         style="background-color: rgba(0, 0, 0, 0.2)"
-         >
-      © <span id="copyright-date"></span> Copyright:
-    Attuned Wellness      
-    </div>
-    <!-- Copyright -->
   </footer>
-</footer>
 <script src="script.js"></script>
 </body>
 </html>

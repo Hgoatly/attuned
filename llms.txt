@@ -1,0 +1,13 @@
+# Attuned Wellness
+
+> Attuned creates immersive experiences in music, sound and stillness, designed to help people find a moment of peace and connection in busy lives.
+
+## About
+
+Experiences include Candlelight, Stillness Sessions, soundbath and yoga. Attuned considers the music, setting, light and atmosphere, with experiences held in spaces such as candlelit rooms and historic spaces.
+
+## Pages
+
+- [Home](index.html): Overview of Attuned's experiences and approach.
+- [About](about.html): More about the experiences and how they are created.
+- [Contact](contact.html): Enquiries about upcoming experiences, bringing Attuned to a space, or asking a question.
